@@ -12,6 +12,7 @@ def second_challenge
   
   groceries.each do |key, value|
     key.values
+    binding.pry 
   end
   
 
