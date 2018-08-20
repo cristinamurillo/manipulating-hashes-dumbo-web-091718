@@ -16,7 +16,6 @@ def first_challenge
   }
   
   contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|item| item == "strawberry"}
-     binding.pry
   
 
 
